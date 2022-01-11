@@ -1,0 +1,28 @@
+#conteudo-governanca{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-content{
+    display: inline-block; /* div ao lado da outra*/
+    padding: 20px 20px;
+    width: 20%;    text-align: justify;
+    color: #FFF;
+    text-indent: 1em;
+
+}
+
+.card-content p {
+    font-family: 'Roboto';
+    font-size: 16px;    
+}
+
+#img-governanca{
+    width: 339px;
+    height: 412px;
+    display: block;
+    margin: 0 auto;  
+}
+
+

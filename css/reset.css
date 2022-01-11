@@ -1,0 +1,14 @@
+/*remove comportamento padrao do browser*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Barlow, sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
