@@ -143,3 +143,111 @@ nav{
     font-family: 'Barlow';
     font-weight:700;
 }
+
+/*conteúdo das paginas*/
+
+.card-content{
+    float: left; /* div ao lado da outra*/
+    padding: 20px 20px;
+    width: 400px;
+    height: 500px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    text-align: justify;
+    color: #FFF;
+    text-indent: 1em;
+}
+
+.card-content p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.6em;    
+}
+
+.conteudo-paginas{
+    width: 1780px;
+    height: 1000px;
+    justify-content: center;
+    margin: auto 30px;
+}
+
+/*pagina governança*/
+
+#img-governanca{
+    width: 339px;
+    height: 412px;
+    display: block;
+    margin: 0 auto;  
+}
+
+/*pagina gestão de riscos*/
+
+#card-gestao-de-riscos .card-content{
+    height: 450px;
+} /*alterando altura do card*/
+
+#img-gestao-de-riscos{
+    width: 600px;
+    height: 412px;
+    display: block;
+    margin-top: 0px;
+    float: right;
+}
+
+#video-gestao-de-riscos{
+    margin-left: 60px;
+    height: 412px;
+}
+
+/*pagina conformidade*/
+
+#card-conformidade .card-content{
+    height: 500px;
+} /*alterando altura do card*/
+
+
+#img-conformidade{
+    margin-left: 300px;
+}
+
+/*pagina políticas e transparencia, noticias, legislacao*/
+
+.conteudo-pagina-link li{
+    display: block;
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.conteudo-pagina-link a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*pagina legislacao*/
+
+
+#conteudo-legislacao{
+    margin: 0 auto;
+    width: 1350px;
+   
+}
+
+#conteudo-legislacao h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
