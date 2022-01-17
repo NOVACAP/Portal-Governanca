@@ -5,14 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Governança</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
+    <title>refazendo o portal</title>
 </head>
 <body>
-    <header>
-     <img src="img/logo.png">   
-    </header>
-    <h1>Portal</h1>
-    
 
+    <header>
+        <img id="logo" src="img/logo.png">
+        <h1>Portal da Governança</h1>
+    </header>
+    
+    <nav class="menuPrincipal">
+        <ul id="menu">
+            <li><a href="#governança" id="nav_gov">GOVERNANÇA</a></li>
+            <li><a href="#gestao-de-riscos">GESTÃO DE RISCOS</a></li>
+            <li><a href="#conformidade">CONFORMIDADE</a></li>
+            <li><a href="#politicas">POLÍTICAS</a></li>
+            <li><a href="#transparencia">TRANSPARÊNCIA</a></li>
+            <li><a href="#legislacao">LEGISLAÇÃO</a></li>
+            <li><a href="sala-de-estudos">SALA DE ESTUDOS</a></li>
+            <li><a href="noticias">NOTÍCIAS</a></li>
+        </ul>
+
+    </nav>
+
+    <nav class="menuMobile">
+
+        <a href="#menu" class="btnMenu btnMenu_open">Menu</a>
+
+        <ul id="menu_mobile" class="mobile">
+            
+            <li class="btnMenu btnMenu_close">Sair</li>
+
+            <li><a href="#governança" id="nav_gov">GOVERNANÇA</a></li>
+            <li><a href="#gestao-de-riscos">GESTÃO DE RISCOS</a></li>
+            <li><a href="#conformidade">CONFORMIDADE</a></li>
+            <li><a href="#politicas">POLÍTICAS</a></li>
+            <li><a href="#transparencia">TRANSPARÊNCIA</a></li>
+            <li><a href="#legislacao">LEGISLAÇÃO</a></li>
+            <li><a href="sala-de-estudos">SALA DE ESTUDOS</a></li>
+            <li><a href="noticias">NOTÍCIAS</a></li>
+        </ul>
+
+    </nav>
+
+    <div id="videoPrincipal">
+        <iframe src="https://www.youtube.com/embed/kGYdT1mJ-0c" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+ <script type="text/javascript" src="js/js_menu.js"></script>
 </body>
 </html>

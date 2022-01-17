@@ -1,4 +1,352 @@
-body {
-    background-image: url("../img/paginaPrincipal.jpeg");
+.menuMobile{
+    display: none;
+}
+
+.menuPrincipal{
+    display: block;
+}
+body{
+    background-image: url(../img/paginaPrincipal.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 10px 10px 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Barlow";
+    font-weight: 200px;
+    font-size: 24px;
+    transition: 1s;
+}
+
+iframe{  
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+@media(max-width:600px){
+    
+    .menuMobile{
+        display: block;
+    }
+    
+    .menuPrincipal{
+        display: none;
+    }
+
+body{
+    background-image: url(../img/paginaPrincipal.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 5px 5px 5px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    display: flex;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 246, 246);
+    font-family: "Barlow";
+    font-weight: 80px;
+    font-size: 25px;
+    transition: 1s;
+    padding: 10px 15px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 400px;
+
+}
+
+#logo{
+    width: 50%;
+    height: 50%;
+}
+
+#menu_mobile{
+    display: block;
+    position: absolute; /*manipula a posição do elemento a partir do elemento pai*/
+
+    top: 20px;
+    left: 0;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(116, 106, 106, 0.507);
+
+    flex-direction: column;
+   
+     transform: translateX(-200%);
+     transition: transform 200ms linear!important;
+}
+
+.menu_open{
+    transform: translateX(0)!important; 
+   
+}
+
+.menuMobile{
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+
+.btnMenu_open{ /*botao hamburguer*/
+
+    display: block;
+    background-image: url(../img/botao_hamburguerPreto.png);
+    background-position: 5px top; 
+    background-size: 20px 20px; 
+    background-repeat: no-repeat;
+    width: 10px;
+    text-indent: -9999px; /*para retirar a palavra menu*/
+    }
+
+    
+.btnMenu_close{
+    display: block;
+    background-size: 20px 20px;
+    background-position: center;
+    background-image: url(../img/bt_hamburguer.png);
+    
+}
+}
+.menuMobile{
+    display: none;
+}
+
+.menuPrincipal{
+    display: block;
+}
+body{
+    background-image: url(../img/paginaPrincipal.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 10px 10px 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Barlow";
+    font-weight: 200px;
+    font-size: 24px;
+    transition: 1s;
+}
+
+iframe{  
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+@media(max-width:600px){
+    
+    .menuMobile{
+        display: block;
+    }
+    
+    .menuPrincipal{
+        display: none;
+    }
+
+body{
+    background-image: url(../img/paginaPrincipal.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 10px 10px 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    display: flex;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 246, 246);
+    font-family: "Barlow";
+    font-weight: 80px;
+    font-size: 25px;
+    transition: 1s;
+    padding: 10px 20px;
+    text-align: left;
+
+}
+
+#nav_gov{
+    text-align: left;
+    padding-right: 200px;
+}
+
+iframe{
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 400px;
+
+}
+
+#logo{
+    width: 50%;
+    height: 50%;
+}
+
+#menu_mobile{
+    display: block;
+    position: absolute; /*manipula a posição do elemento a partir do elemento pai*/
+
+    top: 10px;
+    left: 5px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(116, 106, 106, 0.507);
+
+    flex-direction: column;
+   
+     transform: translateX(-200%);
+     transition: transform 200ms linear!important;
+}
+
+.menu_open{
+    transform: translateX(0)!important; 
+   
+}
+
+.menuMobile{
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+
+.btnMenu_open{ /*botao hamburguer*/
+
+    display: block;
+    background-image: url(../img/botao_hamburguerPreto.png);
+    background-position: 20px center; 
+    background-size: 20px 20px; 
+    background-repeat: no-repeat;
+    width: 10px;
+    text-indent: -9999px; /*para retirar a palavra menu*/
+    }
+
+    
+.btnMenu_close{
+    display: block;
+    background-size: 20px 20px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    width: 50px;
+    padding: 5px 5px;
+    margin-top: 0px;
+    background-image: url(../img/botao_hamburguerPreto.png);
+    text-indent: -9999px; /*para retirar a palavra menu*/
+    }
 }
