@@ -1,0 +1,10 @@
+body{
+    background-image: url("../img/paginaPrincipal.jpeg");
+    background-size: cover;
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Barlow', sans-serif;
+}
+
+
