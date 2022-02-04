@@ -1,7 +1,14 @@
+*{
+    font-family: 'Barlow', sans-serif;
+    margin-top: 5px;
+}
+
+
+
 body{
     background-image: url("../img/paginaPrincipal.jpeg");
     background-size: cover;
-    color: #FFF;
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Barlow', sans-serif;
@@ -10,6 +17,5 @@ body{
 body#second{
     background-image: url("../img/fundo-paginas.jpeg") !important;
 }
-
 
 
