@@ -14,5 +14,8 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 
+body#second{
+    background-image: url("../img/fundo-paginas.jpeg") !important;
+}
 
 
