@@ -1,6 +1,5 @@
 *{
     font-family: 'Barlow', sans-serif;
-    margin-top: 5px;
 }
 
 
@@ -11,10 +10,47 @@ body{
     
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Barlow', sans-serif;
+  
 }
 
 body#second{
     background-image: url("../img/fundo-paginas.jpeg") !important;
+}
+h1 {
+    padding-top: 40px!important;
+    padding-bottom: 25px!important;
+    text-align: center;
+}
+h2{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+   }
+
+td:hover{
+    text-decoration: underline;
+   
+}
+
+
+@media only screen and (max-width: 1199px) {
+    ul {
+      background-color: rgba(82, 79, 79, 0.37);
+    }
+
+    
+    a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+   }
+  }
+
+
+p {
+    text-align: justify;
 }
 
