@@ -16,7 +16,16 @@ body{
 body#second{
     background-image: url("../img/fundo-paginas.jpeg") !important;
 }
-h1, h2 {
-    padding-top: 20px!important;
-    padding-bottom: 20px;
+h1 {
+    padding-top: 50px!important;
+    padding-bottom: 30px!important;
+}
+h2{
+    padding-bottom: 15px;
+
+}
+li.link, .list-group {
+    padding: 10px !important;
+    font-family: 'Barlow', sans-serif !important;
+    
 }
