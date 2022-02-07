@@ -1,6 +1,5 @@
 *{
     font-family: 'Barlow', sans-serif;
-    margin-top: 5px;
 }
 
 
@@ -11,7 +10,7 @@ body{
     
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Barlow', sans-serif;
+  
 }
 
 body#second{
