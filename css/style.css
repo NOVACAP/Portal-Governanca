@@ -37,6 +37,11 @@ a{
     text-decoration: none;
 }
 
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 @media only screen and (max-width: 1199px) {
     ul {
       background-color: rgba(82, 79, 79, 0.37);
@@ -49,8 +54,8 @@ a{
    }
   
 
-p {
-    text-align: justify;
-}
+    p {
+        text-align: justify;
+    }
 
 }
