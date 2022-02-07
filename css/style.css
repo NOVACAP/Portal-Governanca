@@ -19,13 +19,13 @@ body#second{
 h1 {
     padding-top: 40px!important;
     padding-bottom: 25px!important;
+    text-align: center;
 }
 h2{
     padding-bottom: 15px;
+    text-align: center;
 
 }
-li.link, .list-group {
-    padding: 10px !important;
-    font-family: 'Barlow', sans-serif !important;
-    
+p {
+    text-align: justify;
 }
