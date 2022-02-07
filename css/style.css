@@ -31,11 +31,11 @@ a:hover {
     text-decoration-color: white;
    }
 
-td:hover{
-    text-decoration: underline;
-   
-}
 
+a{
+    color: white;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 1199px) {
     ul {
@@ -47,10 +47,10 @@ td:hover{
     text-decoration: underline;
     text-decoration-color: white;
    }
-  }
-
+  
 
 p {
     text-align: justify;
 }
 
+}
