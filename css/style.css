@@ -18,3 +18,25 @@ body#second{
     background-image: url("../img/fundo-paginas.jpeg") !important;
 }
 
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+   }
+
+td:hover{
+    text-decoration: underline;
+   
+}
+
+
+@media only screen and (max-width: 1199px) {
+    ul {
+      background-color: rgba(82, 79, 79, 0.37);
+    }
+
+    
+    a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+   }
+  }
