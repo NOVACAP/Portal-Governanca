@@ -26,12 +26,6 @@ h2{
     text-align: center;
 }
 
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: white;
-   }
-
-
 a{
     color: white;
     text-decoration: none;
@@ -42,7 +36,7 @@ a{
     margin-left: 10px;
 }
 
-
+  
 #TabelaPDF{
     
     margin: auto;
@@ -50,21 +44,27 @@ a{
     margin-bottom: 10% !important;
      }
 
+ a:hover{
+    text-decoration: underline;
+    color: white;
+ }
+
+   
 @media only screen and (max-width: 1199px) {
     ul {
       background-color: rgba(82, 79, 79, 0.37);
     }
 
+
+    a:hover{
+        text-decoration: underline;
+        color: white;
+     }
     
-    a:hover {
-    text-decoration: underline;
-    text-decoration-color: white;
-   }
-  
 
     p {
         text-align: justify;
     }
 
-
+    
 }
